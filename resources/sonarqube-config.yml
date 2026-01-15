@@ -1,0 +1,5 @@
+SLACK_CHANNEL_NAME: ninja-devops-course-
+ENVIRONMENT: prod
+CODE_BASE_PATH: env/prod
+ACTION_MESSAGE: "SonarQube analysis completed successfully"
+KEEP_APPROVAL_STAGE: true
