@@ -5,12 +5,12 @@ def call(Map config = [:]) {
 
         stages {
 
-            stage('Clone Repository') {
-                steps {
-                    echo "Cloning SonarQube code..."
-                    git config.REPO_URL
-                }
-            }
+           stage('Clone Repository') {
+               steps {
+                   echo "Cloning SonarQube code..."
+                   git branch: 'main', url: config.REPO_URL
+              }
+         }
 
             stage('User Approval') {
                 when {
