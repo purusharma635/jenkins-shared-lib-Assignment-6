@@ -1,0 +1,1 @@
+# jenkins-ansible-sonarqube-lib
