@@ -19,7 +19,7 @@ def call(Map config) {
 
     stage('Notification') {
         slackSend(
-          channel: config.#ninja-devops-course-,
+          channel: config.ninja-devops-course-,
           message: config.ACTION_MESSAGE
         )
     }
